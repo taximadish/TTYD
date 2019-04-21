@@ -4,7 +4,7 @@ import struct
 import ctypes
 import math
 
-print("===\n" + sys.argv + "\n===")
+print("===\n", sys.argv, "\n===")
 
 inputFilename = sys.argv[1]
 inputFile = open(inputFilename, "rb")
@@ -35,9 +35,9 @@ struct.pack_into(">L", fileInfoBuffer, 0, len(inputBuffer))
 
 # Pad to block boundary
 fileLength = len(bannerBuffer) + len(iconBuffer) + len(commentBuffer) + len(fileInfoBuffer) + len(inputBuffer)
-blockCount = math.ceil(fileLength / 0x2000)
+blockCount = math.ceil(float(fileLength) / 0x2000)
 paddingLength = blockCount * 0x2000 - fileLength
-paddingBuffer = ctypes.create_string_buffer(paddingLength)
+paddingBuffer = ctypes.create_string_buffer(int(paddingLength))
 
 # Create header
 headerBuffer = ctypes.create_string_buffer(0x40)
