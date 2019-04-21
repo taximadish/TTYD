@@ -4,6 +4,8 @@ import struct
 import ctypes
 import math
 
+print("===\n" + sys.argv + "\n===")
+
 inputFilename = sys.argv[1]
 inputFile = open(inputFilename, "rb")
 inputBuffer = ctypes.create_string_buffer(inputFile.read())[:-1]
