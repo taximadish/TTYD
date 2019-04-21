@@ -1,0 +1,74 @@
+===
+Undecided
+===
+
+Star Points and Level
+    Makes getting levels much quicker & easier
+    Personally, more levels = more BP = more fun, and I don't care about lower difficulty
+
+===
+Shared
+===
+
+Feature
+    Justification
+        Consequences
+
+Coins & Consumable Items
+    Encourages team play, eg. P1 farms money so P2 can buy items so P3 can survive their battle
+        Start with Strange Sack to mitigate space concerns
+        Could inventory be expanded further? 10 slots per player?
+
+Important Items (Key Gear)
+    Core concept
+
+Owned Badges
+    Part of core concept
+
+Story Progression ("Flags")
+    Core concept
+
+Shines & Star Pieces
+    Core concept
+
+Partner Powerup Rank
+    Shines are shared (core concept)
+
+Mario Powerups (Boots, Hammers, Paper Powers)
+    Core concept
+
+
+===
+Instanced
+===
+
+LevelUp Stat Choices
+    More per-player customisation
+        If too hard to implement, pick BP every time and provide free HP+ and FP+ badges for per-player reconfiguring
+
+Equipped Badges
+    Allow all players to customise playstyle individually
+
+Current HP & FP & SP
+    Prevents utter chaos. Otherwise 1 unfortunate player could cause a teamwipe
+
+
+===
+Non-Coop Side Features
+===
+
+Remove/Shorten cutscenes where possible
+
+Rework story progression to use more specific flags. Nightmare task I'm sure.
+
+Soften penalty for death (where possible). Dying in battle triggers a successful "run away" leaving you at 1HP
+    Wouldn't work for inescapable battles, or environmental hazards, but that's probably fine
+
+Start with full Tattle Log
+    Feeling obligated to Tattle every enemy would hurt replayability
+
+Start with full Badge List and Recipe List (and filled Map)
+    Would just be nice, and doesn't affect anything anyway
+
+Starting badges: Timing Tutor, Double Pain, Slow Go, L/W Emblem, Attack FX G/P/Y
+    Badges with purely subjective benefit
